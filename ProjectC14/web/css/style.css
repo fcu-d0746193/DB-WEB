@@ -1,0 +1,32 @@
+.text {
+  color: black;
+  font-size: 14px;
+}
+
+.linkTitle {
+  color: #880;
+  font-size: 18px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+nav {
+  font-family: "微軟正黑體", "Microsoft JhengHei", arial, helvetica, sans-serif;
+}

@@ -1,0 +1,29 @@
+.button {
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 12px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.button1 {
+  background-color: #e97532;
+  border-radius: 4px;
+}
+
+.button2 {
+  background-color: #60c7ca;
+  border: 10px;
+  border-color: black;
+  width: 15%;
+}
+
+.container {
+  padding: 15px 15px;
+  margin: auto;
+  text-align: center;
+}
