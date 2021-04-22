@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>台中 環山部落</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="../css/shopbutton.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
+        <a class="navbar-brand" href="index.html">環山部落</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li><a class="nav-link" href="view.html">景點介紹</a></li>
+                <li><a class="nav-link" href="learn.html">線上學習平台</a></li>
+                <li><a class="nav-link" href="shop.html">商品</a></li>
+                <li><a class="nav-link" href="money.html">募款</a></li>
+            </ul>
+        </div>
+    </nav>
+    <br><br><br>
+
+    <div class="container">
+        <button type="button" class="button button2" value="300"><a href="shop.html">所有商品</a></button>
+        <button type="button" class="button button2" value="500"><a href="shop_tea.html">梨山茶</a></button>
+        <button type="button" class="button button2" value="1000"><a href="shop_plum.html">梨山蜜李</a></button>
+        <button type="button" class="button button2" value="1000"><a href="shop_pear.html">梨山蜜梨</a></button>
+        <button type="button" class="button button2" value="1000"><a href="shop_apple.html">梨山蜜蘋果</a></button>
+      </div>
+    <article class="container-fluid " style=" margin-top: 90px; margin-bottom: 150px;">
+        <div class="row">
+            <div class="col-12 col-xs-6 col-md-6">
+                <img class="img-fluid img-thumbnail" src="../img/商店/梨山蜜李.jpg">
+                <h4>簡介:</h4>
+                <div class="col-12 col-xs-8 col-md-12">生長於高海拔梨山，純淨的山泉水與雲霧裊繞的環境，採用自然農耕孕育出的紅寶石。色澤紅艷、甜中帶酸，果肉細膩、柔嫩多汁。吃起來帶點西瓜口感，因此有「西瓜李」暱稱。</div>
+                <br><br>
+            </div>
+            <div class="col-12 col-xs-6 col-md-6">
+                <h2 class="text mt-6 col-md-12">梨山蜜李(2斤)</h2>
+                <div class="price mt-6 col-md-12"><h4>價格:NT$ 550元/盒</h4></div>
+                <br>
+                <div class="row">
+                    <p class="col-md-3">我要訂購(盒)</p>
+                    <p class="col-md-9"><input type="text" name="數量" placeholder="請輸入數量" required></p>
+                </div>
+
+                <div class="context" calss="row">
+                    <p id="pay">
+                        <button type="submit" class="button1" name="cart" value="0"><a href="../html/action_page copy.html"  target="_blank" >加入購物車</a></button></p>
+                        <button type="submit" class="button1"  name="now" value="1"><a href="../html/action_page copy.html"  target="_blank" >立即購買</a></button></p>
+                  </div>
+            </div>
+
+        </div>
+        
+    </article>
+    <button class="bg-info" onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script src="../js/topButton.js"></script>
+    <footer class="page-footer bg-info">
+        <div class="footer-copyright text-center py-3">2019</div>
+    </footer>
+</body>
+
+</html>
